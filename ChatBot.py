@@ -19,15 +19,15 @@ def chatbot():
         user_input = input("You: ").lower().strip()
 
         if user_input in ["hello", "hi", "hey", "yo", "hello bro"]:
-            print(f"Bot: Hi there! {get_time_based_greeting()}")
+            print(f"🤖 Bot: Hi there! {get_time_based_greeting()}")
         elif "how are you" in user_input:
-            print("Bot: I'm doing well, how about you?")
+            print("🤖 Bot: I'm doing well, how about you?")
         elif "your name" in user_input or "who are you" in user_input:
-            print("Bot: I'm CodeAlpha Chatbot 🤖")
+            print("🤖 Bot: I'm CodeAlpha Chatbot 🤖")
         elif "i am fine" in user_input or "i'm fine" in user_input:
-            print("Bot: That's great to hear! 😊")
+            print("🤖 Bot: That's great to hear! 😊")
         elif user_input == "bye":
-            print("Bot: Goodbye! Have a nice day!")
+            print("🤖 Bot: Goodbye! Have a nice day!")
             break
         else:
             print("Bot: Sorry, I don't understand that.")
